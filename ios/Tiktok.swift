@@ -38,4 +38,10 @@ class Tiktok: UIViewController {
       }
     })
   }
+    
+  func isAppInstalled(_ callback: @escaping RCTResponseSenderBlock) {
+      let delegate = TikTokOpenSDKApplicationDelegate();
+      let isAppInstalled = delegate.isAppInstalled();
+      callback([isAppInstalled]);
+  }
 }

@@ -72,6 +72,15 @@ export const init = (key: string) => {
   }
 };
 
+export const isAppInstalled = (callback: (isAppInstalled: boolean) => void) => {
+  if (Platform.OS === 'ios') {
+    Tiktok.isAppInstalled(callback);
+  } else {
+    // on Android: it will automatically open webview
+    callback(true);
+  }
+}
+
 const addListener = (_listener: string, _event: any) => {};
 
 export const events =
