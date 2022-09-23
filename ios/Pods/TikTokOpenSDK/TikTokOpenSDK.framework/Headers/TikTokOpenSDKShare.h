@@ -9,6 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+FOUNDATION_EXTERN NSString *const TikTokVideoKitDisableMusicSelectionKey;
+
 typedef NS_ENUM(NSUInteger, TikTokOpenSDKShareMediaType) {
     TikTokOpenSDKShareMediaTypeImage = 0, //!< Map to PHAssetMediaTypeImage
     TikTokOpenSDKShareMediaTypeVideo, //!< Map to PHAssetMediaTypeVideo
@@ -74,9 +76,14 @@ typedef void (^TikTokOpenSDKShareCompleteBlock)(TikTokOpenSDKShareResponse *Resp
 @property (nonatomic, assign) TikTokOpenSDKLandedPageType landedPageType;
 
 /**
-   To associate your video with a hashtag, set the hashtag property on the request. The length cannot exceed 35. You app needs to have access to this feature.
+   To associate your video with a hashtag, set the hashtag property on the request. The length cannot exceed 35. Your app needs to have access to this feature.
  */
 @property (nonatomic, copy) NSString *hashtag;
+
+/**
+    Add extra share options to disable/enable users from adding music, anchors, or effects when sharing to TikTok. If the dictionary is empty, the default will enable users to do what they want.
+ */
+@property (nonatomic, strong) NSDictionary *extraShareOptions;
 
 /**
    The Media type of localIdentifiers in Album, All attachment localIdentifiers must be the same type

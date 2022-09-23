@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		57242EDE7A07DD82A7B1122EF36675C0 /* Pods-Tiktok-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABFAA2A9E96E848A37031FA450432FF /* Pods-Tiktok-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDA8F2469AFD52BE6CADD5B205B86B05 /* Pods-Tiktok-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6DD5D2E05B4E21481BDD99E61DB43D /* Pods-Tiktok-dummy.m */; };
-		FE3B1D2E9424174E143BC6E840DD9C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1D1B9E436B9C52E2538CD33C0D9B05B3 /* Pods-Tiktok-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABFAA2A9E96E848A37031FA450432FF /* Pods-Tiktok-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24762FE701B6AE6BB456BBBA3C2C9071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B449E6E7FAAB54B723A98EB5A751699E /* Pods-Tiktok-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6DD5D2E05B4E21481BDD99E61DB43D /* Pods-Tiktok-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D57F0C5FE41EF0E66DB81EEF9F454003 /* PBXContainerItemProxy */ = {
+		811D039954CF4E27D4FC99A626163B1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -49,7 +49,7 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A13EA87B54512779473D781BA4161569 /* TikTokOpenSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TikTokOpenSDK-umbrella.h"; path = "TikTokOpenSDK.framework/Headers/TikTokOpenSDK-umbrella.h"; sourceTree = "<group>"; };
 		B45EA10C4EE306B23AA3672D14EBB857 /* Pods-Tiktok-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tiktok-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B4A05D1B381864183BB822DDF7AE03E0 /* Pods_Tiktok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tiktok.framework; path = "Pods-Tiktok.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A05D1B381864183BB822DDF7AE03E0 /* Pods-Tiktok */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Tiktok"; path = Pods_Tiktok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83013AF525EFAE47876D114E1C99698 /* Pods-Tiktok-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tiktok-Info.plist"; sourceTree = "<group>"; };
 		D5482C41C6CF3795588DE1AE034CF47D /* TikTokOpenSDKAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TikTokOpenSDKAuth.h; path = TikTokOpenSDK.framework/Headers/TikTokOpenSDKAuth.h; sourceTree = "<group>"; };
 		DE6DD5D2E05B4E21481BDD99E61DB43D /* Pods-Tiktok-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tiktok-dummy.m"; sourceTree = "<group>"; };
@@ -57,25 +57,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E44C4E1E81DAF5D8FEABFF9CE1C885D1 /* Frameworks */ = {
+		FB276146FF98C0C39812D3FCB660AA5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3B1D2E9424174E143BC6E840DD9C3F /* Foundation.framework in Frameworks */,
+				24762FE701B6AE6BB456BBBA3C2C9071 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D837DA30CE6E4E4F7A93CE0DFD0628F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B4A05D1B381864183BB822DDF7AE03E0 /* Pods_Tiktok.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		35415BB19B37D03EA094C8E5433C967B /* Pods-Tiktok */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +82,14 @@
 			);
 			name = "Pods-Tiktok";
 			path = "Target Support Files/Pods-Tiktok";
+			sourceTree = "<group>";
+		};
+		36737ECD38800FF113EBD0B849EEB87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A05D1B381864183BB822DDF7AE03E0 /* Pods-Tiktok */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4327751689BCC4263FC599F2454D70CA /* Support Files */ = {
@@ -147,7 +147,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E0403F03C9D58F775C1033092560E9F7 /* Pods */,
-				1D837DA30CE6E4E4F7A93CE0DFD0628F /* Products */,
+				36737ECD38800FF113EBD0B849EEB87D /* Products */,
 				992B6FB53AC700122EAB2EC3E4D600A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -171,11 +171,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9A6E2FEB05FFBC1E7FA6CB99553870DD /* Headers */ = {
+		000423C401BA6652C51E0E384EDE5090 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57242EDE7A07DD82A7B1122EF36675C0 /* Pods-Tiktok-umbrella.h in Headers */,
+				1D1B9E436B9C52E2538CD33C0D9B05B3 /* Pods-Tiktok-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,21 +184,21 @@
 /* Begin PBXNativeTarget section */
 		98343870A959FCBFCD2621F47DA79F5A /* Pods-Tiktok */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE95CDCCC76DC0548D82EF9B979DF34F /* Build configuration list for PBXNativeTarget "Pods-Tiktok" */;
+			buildConfigurationList = 352E903C9927700F14E1F686C5D31D91 /* Build configuration list for PBXNativeTarget "Pods-Tiktok" */;
 			buildPhases = (
-				9A6E2FEB05FFBC1E7FA6CB99553870DD /* Headers */,
-				F0EDCF150DE78FCC7B87EBC009094C71 /* Sources */,
-				E44C4E1E81DAF5D8FEABFF9CE1C885D1 /* Frameworks */,
-				2055BC0EB698599F8F95DD0FAF86CD9B /* Resources */,
+				000423C401BA6652C51E0E384EDE5090 /* Headers */,
+				EFC05DCDCC624D9B1A43554F001284C4 /* Sources */,
+				FB276146FF98C0C39812D3FCB660AA5E /* Frameworks */,
+				D874CEA11878F0163DEA6BE839F4CCE7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6691EDF21D6FA6DEAE425B4A1FF2A204 /* PBXTargetDependency */,
+				57545664144D5E9B6973E68E29CCE631 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tiktok";
-			productName = "Pods-Tiktok";
-			productReference = B4A05D1B381864183BB822DDF7AE03E0 /* Pods_Tiktok.framework */;
+			productName = Pods_Tiktok;
+			productReference = B4A05D1B381864183BB822DDF7AE03E0 /* Pods-Tiktok */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -207,19 +207,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D837DA30CE6E4E4F7A93CE0DFD0628F /* Products */;
+			productRefGroup = 36737ECD38800FF113EBD0B849EEB87D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -230,7 +230,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2055BC0EB698599F8F95DD0FAF86CD9B /* Resources */ = {
+		D874CEA11878F0163DEA6BE839F4CCE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -240,22 +240,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F0EDCF150DE78FCC7B87EBC009094C71 /* Sources */ = {
+		EFC05DCDCC624D9B1A43554F001284C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA8F2469AFD52BE6CADD5B205B86B05 /* Pods-Tiktok-dummy.m in Sources */,
+				B449E6E7FAAB54B723A98EB5A751699E /* Pods-Tiktok-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6691EDF21D6FA6DEAE425B4A1FF2A204 /* PBXTargetDependency */ = {
+		57545664144D5E9B6973E68E29CCE631 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TikTokOpenSDK;
 			target = 0026B007D5D7066966D3EEDABF038BFC /* TikTokOpenSDK */;
-			targetProxy = D57F0C5FE41EF0E66DB81EEF9F454003 /* PBXContainerItemProxy */;
+			targetProxy = 811D039954CF4E27D4FC99A626163B1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -271,6 +271,40 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58706B19341DA853D9FCED7710C90812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FD9DD35C95D05E805DE3F610B6F9AD /* Pods-Tiktok.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tiktok/Pods-Tiktok-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tiktok/Pods-Tiktok.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -415,41 +449,7 @@
 			};
 			name = Debug;
 		};
-		DD5FEA933CBD10E3C1A0A3B6EDD400BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90FD9DD35C95D05E805DE3F610B6F9AD /* Pods-Tiktok.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tiktok/Pods-Tiktok-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tiktok/Pods-Tiktok.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F0522AE4189B24BBEAB7FE2E50DD4A3B /* Debug */ = {
+		DD06ECF0BFB4100526D00DDBF5131FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB3E6D681DB323336C8ED577390C8F65 /* Pods-Tiktok.debug.xcconfig */;
 			buildSettings = {
@@ -485,20 +485,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		352E903C9927700F14E1F686C5D31D91 /* Build configuration list for PBXNativeTarget "Pods-Tiktok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD06ECF0BFB4100526D00DDBF5131FA8 /* Debug */,
+				58706B19341DA853D9FCED7710C90812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE95CDCCC76DC0548D82EF9B979DF34F /* Build configuration list for PBXNativeTarget "Pods-Tiktok" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0522AE4189B24BBEAB7FE2E50DD4A3B /* Debug */,
-				DD5FEA933CBD10E3C1A0A3B6EDD400BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
